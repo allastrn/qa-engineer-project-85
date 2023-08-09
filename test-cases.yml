@@ -6,7 +6,7 @@
   prerequisites: |
     Открыта страница авторизации. Аккаунт на Github.com зарегистрирован.
   test-data: |
-    Login = Marria22 Password = password
+    Login = test123 Password = password123
   steps:
     - Нажать 'Sign in with Github'
     - Ввести тестовые данные
@@ -21,7 +21,7 @@
   prerequisites: |
     Открыта страница авторизации. Аккаунт на Discord зарегистрирован.
   test-data: |
-    Login = anna5641 e-mail = test12@yandex.ru Password = passwordanna5641
+    Login = test123 e-mail = test@test.com Password = password123
   steps:
     - Нажать 'Sign in with Discord'
     - Ввести тестовые данные
@@ -36,7 +36,7 @@
   prerequisites: |
     Открыта страница регистрации
   test-data: |
-    Nickname = marianna123 e-mail = marianna123@ya.ru Password = password123
+    Nickname = test123 e-mail =test123@test.ru Password = password123
   steps:
     - Заполнить форму регистрации
     - Нажать 'Submit'
@@ -50,7 +50,7 @@
   prerequisites: |
     Открыта главная страница web-приложения. Пользователь авторизован.
   test-data: |
-    Nickname = marianna123 Password = password123 Message = 'Hi!'
+    Nickname = test123 Password = password123 Message = 'hi there!'
   steps:
     - ввести сообщение в форму
     - нажать 'Send'
@@ -64,7 +64,7 @@
   prerequisites: |
     Пользователь авторизован. Открыта главная страница.
   test-data: |
-    Login = marianna123 Password = password123
+    Login = test123 Password = password123
     Level = * Time_control = 8 min Game_type = with a bot Task = rect_area
     Task_solution =
     const solution = (width, length) => {
@@ -86,7 +86,7 @@
   prerequisites: |
     Пользователь авторизован. Открыта главная страница.
   test-data: |
-    Login = marianna123 Password = password123
+    Login = test123 Password = password123
     Level = * Time control = 8 min Game type = with a bot Task = rect_area
   steps:
     - Нажать 'Create a game'
@@ -104,7 +104,7 @@
   prerequisites: |
     Пользователь авторизован. Открыта главная страница.
   test-data: |
-    Login = marianna123 Password = password123
+    Login = test123 Password = password123
     Level = * Time control = 8 min Game type = with a bot Task = rect_area
   steps:
     - Нажать 'Create a game'
@@ -122,8 +122,8 @@
     Два окна с открытым web-приложением на главной странице.
     В первом окне авторизован пользователь 1. Во втором окне - пользователь 2.
   test-data: |
-    Login1 = marianna123 Password1 = password123
-    Login2 = sleepy5 Password2 = sleepy2213
+    Login1 = test123 Password1 = password123
+    Login2 = test456 Password2 = password456
   steps:
     - В первом окне нажать 'Create a game'
     - Выбрать настройки игры Game_Type = with a friend
@@ -144,8 +144,8 @@
     Два окна с открытым web-приложением на главной странице.
     В первом окне авторизован пользователь 1. Во втором окне - пользователь 2.
   test-data: |
-    Login1 = marianna123 Password1 = password123
-    Login2 = sleepy5 Password2 = sleepy2213
+    Login1 = test123 Password1 = password123
+    Login2 = test456 Password2 = password456
   steps:
     - В первом окне нажать 'Create a game'
     - Выбрать настройки игры Game_Type = with a friend
@@ -163,8 +163,8 @@
     Два окна с открытым web-приложением на главной странице.
     В первом окне авторизован пользователь 1. Во втором окне - пользователь 2.
   test-data: |
-    Login1 = marianna123 Password1 = password123
-    Login2 = sleepy5 Password2 = sleepy2213
+    Login1 = test123 Password1 = password123
+    Login2 = test456 Password2 = password456
     Level = *; Time control = 8 min; Game_type = with a friend; Task = rect_area;
     Task_solution =
     const solution = (width, length) => {
@@ -189,7 +189,7 @@
   prerequisites: |
     Пользователь авторизован. Открыта вкладка 'Tournaments'
   test-data: |
-    Login = marianna123 Password = password123
+    Login = test123 Password = password123
     Name = test; Type = individual; Access_type = token; Level = elementary;
     Default language = js; Match timeout = 180;
   steps:
@@ -207,26 +207,12 @@
   prerequisites: |
     Пользователь авторизован. Открыта вкладка 'Tournaments'
   test-data: |
-    Login = marianna123 Password = password123
+    Login = test123 Password = password123
   steps:
     - Нажать 'Show' напротив турнира в состоянии waiting_participants
     - Нажать 'Join'
   expected-result: |
     Ник пользователя появился в списке игроков выбранного турнира.
-
-- summary: |
-    Использование голосового чата Discord
-  requirement: |
-    Игроки имеют возможность общаться в голосовом чате Discord
-  prerequisites: |
-    Открыта главная страница. Пользователь авторизован через Discord.
-  test-data: |
-    Login = anna5641 Password = passwordanna5641
-  steps:
-    - Кликнуть по аватарке игрока в правом верхнем углу
-    - В открывшемся меню выбрать 'Join Discord'
-  expected-result: |
-    Подключение к каналу codebattle в Discord.
 
 - summary: |
     Возможность поиска в рейтинге игроков
@@ -235,7 +221,7 @@
   prerequisites: |
     Открыта страница с рейтингом игроков. Пользователь авторизован.
   test-data: |
-    Login = marianna123 Password = password123
+    Login = test123 Password = password123
   steps:
     - В поле поиска ввести 'maria'
   expected-result: |
@@ -248,7 +234,7 @@
   prerequisites: |
     Пользователь авторизован. Открыта главная страница. Имеется незаконченная игра.
   test-data: |
-    Login = marianna123 Password = password123
+    Login = test123 Password = password123
   steps:
     - Нажать 'Show' напротив незавершенной игры
   expected-result: |
@@ -261,7 +247,7 @@
   prerequisites: |
     Пользователь авторизован. Открыта главная страница.
   test-data: |
-    Login = marianna123 Password = password123
+    Login = test123 Password = password123
   steps:
     - Открыть вкладку 'Completed games'
     - Нажать 'Show' напротив любой игры
