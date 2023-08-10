@@ -1,62 +1,62 @@
 ---
 - summary: |
    Успешная авторизация через Github
-status: pass
+  status: pass
 
 - summary: |
    Успешная авторизация через Discord
-status: pass
+  status: pass
 
 - summary: |
    Успешная регистрация
-status: pass
+  status: pass
 
 - summary: |
     Возможность пользования общим чатом
-status: pass
+  status: pass
 
 - summary: |
    Возможность выиграть в игре с ботом
-status: pass
+  status: pass
 
 - summary: |
     Возможность сдаться в игре с ботом
-status: pass
+  status: pass
 
 - summary: |
     Успешная смена языка программирования во время игры
-status: pass
+  status: pass
 
 - summary: |
     Работоспособность чата во время игры
-status: pass
+  status: pass
 
 - summary: |
     Возможность отправить приглашение в игру
-status: pass
+  status: pass
 
 - summary: |
     Возможность выиграть в игре с другим игроком
-status: pass
+  status: pass
 
 - summary: |
     Возможность создания турнира
-status: pass
+  status: pass
 
 - summary: |
     Возможность присоединиться к турниру
-status: pass
+  status: pass
     
 - summary: |
     Возможность поиска в рейтинге игроков
-status: pass
+  status: pass
 
 - summary: |
     Возможность просмотра незавершенной игры
-status: pass
+  status: pass
 
 - summary: |
     Возможность просмотра повтора игры
-status: pass
+  status: pass
 
     
